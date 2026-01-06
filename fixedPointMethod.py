@@ -1,4 +1,4 @@
-# THE ITERATION OF THE FIXED POINT IS USED TO COMPUTE FIXED POINTS OF A FUNCTIONS
+# THE ITERATION OF THE FIXED POINT IS USED TO COMPUTE FIXED POINTS OF A FUNCTION
 
 from sympy import symbols
 import numpy as np
@@ -22,4 +22,5 @@ def fixedPoint(x0, tol, maxIter):
             exit1 = x_new
         x = x_new
         iter = iter + 1
+
     return (x, iter)
